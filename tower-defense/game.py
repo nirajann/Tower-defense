@@ -108,7 +108,7 @@ class hero:
             if bullet.off_screen():
                 self.bullets.remove(bullet)
 
-
+#for bullets
 class Bullet:
     def __init__(self,x,y,direction):
         self.x =x + 25
