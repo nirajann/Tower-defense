@@ -129,7 +129,7 @@ class Hero:
             self.cool_down_count = 0
         elif self.cool_down_count > 0:
             self.cool_down_count += 1
-
+    #shoot function
     def shoot(self):
         self.hit()
         self.cooldown()
